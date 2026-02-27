@@ -909,7 +909,7 @@ const obs = new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting) e.
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 
 // ── AI CHAT (connected to backend proxy → OpenAI Responses API) ──
-const AI_API_URL = 'https://designportfolio-l8fg.onrender.com';
+const AI_API_URL = 'https://designportfolio-l8fg.onrender.com/api/chat';
 let previousResponseId = null;
 let chatDisabled = false;
 
